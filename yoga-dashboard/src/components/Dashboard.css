@@ -1,0 +1,45 @@
+/* Dashboard.css */
+.dashboard {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.summary {
+  margin-bottom: 20px;
+}
+
+.pose-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pose-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.pose-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.pose-info p {
+  margin: 0;
+  color: gray;
+}
